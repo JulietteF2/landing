@@ -1,0 +1,43 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* --- Import Components stylesheets --- */
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700|Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Raleway;
+}
+
+p {
+  font-family: Montserrat;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
